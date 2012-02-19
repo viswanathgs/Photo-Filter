@@ -1,0 +1,9 @@
+Author: Viswanath Sivakumar aka viswnathgs <viswanathgs@gmail.com>
+
+A simple Facebook App that allows the user to enter a bunch of friends and 
+filters photos in which the user is tagged with them.
+
+Written using Facebook's PHP SDK v3.0.0 and JQuery 1.7.1.
+
+Thanks to James Smith for 'loopj TokenInput', a Facebook-style autocomplete 
+plugin (http://loopj.com/jquery-tokeninput/)
