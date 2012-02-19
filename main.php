@@ -47,7 +47,7 @@ catch (FacebookApiException $e) {
 		if ($("#friends").val() == "") {
 			$("#result").html("<div class='info'>No photos found</div>");
 			return;
-    }
+		}
 
 		$("#result").html("<div class='info'>Searching...</div>");		
 		var friends = $("#friends").val();
