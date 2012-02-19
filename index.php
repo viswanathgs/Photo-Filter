@@ -48,7 +48,7 @@ $user = $facebook->getUser();
 			}
 			else {
 				$loginUrl = $facebook->getLoginUrl(array('scope' => 'user_photos'));
-	  	  echo "<a style='float:right' href='".$loginUrl."'>Login</a>";
+				echo "<a style='float:right' href='".$loginUrl."'>Login</a>";
 			}
 		}
 		catch (FacebookApiException $e) {
